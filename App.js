@@ -20,5 +20,6 @@ export default function App() {
         <BottomTab.Screen name="User" component={UserScreen} />
       </BottomTab.Navigator>
     </NavigationContainer>
+    // expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
   );
 }
